@@ -1,13 +1,30 @@
-/**/
 
+/* TODAVIA APRENDIENDO SASS*/
+/* generales
+$font:'Pompiere', cursive;
+
+$white: #fff;
+$light-gray:#f6f6f6;
+$dark-gray:#ffffff;
+$verde-boton:#9dc100;
+*/
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Pompiere', cursive;
   font-size: 16px;
 }
 
+.btn{
+  background-color:#9dc100;
+  color:#fff;
+  border: none;
+  border-radius: 100px;
+  padding: 13px 30px;
+}
+.white{
+  color:#fff;
+}
 /* SECCION 1: HEADER */
 
 .sec-1{
@@ -16,8 +33,10 @@
 }
 
 .logo{
-  background: url('../img/logo.jpg');
+  background: url(../img/logo.jpg);
   width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 .eight{
@@ -25,4 +44,98 @@
 }
 .devices{
   
+}
+/* SECCION 2: NAVBAR */
+/* SECCION 3: CAROUSEL */
+/* SECCION 4: ABOUT US */
+/* SECCION 5: SERVICES */
+.pic1{
+  background: url(../img/service-1-640x790.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic2{
+  background: url(../img/service-3-640x790.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pic3{
+  background: url(../img/service-2-640x790.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* SECCION 6: NUMBERS */
+.sec-6{
+  background: url(../img/stat-bg.jpg);
+  padding: 100px 0;
+  background-attachment: fixed;
+}
+
+.white{
+  color:#fff;
+}
+
+/* SECCION 7: GALLERY */
+.photo1{
+  display:inline-block;
+  width: 10%;
+}
+.pic{
+  width:50px;
+  height:50px;
+  display:inline-block;
+}
+/* SECCION 8: WANT A PHOTOGRAPHER */
+
+.sec-8{
+  background: url(../../dist/img/cta-bg-1.jpg);/* fotos van asi! */
+  height:80vh;
+}
+/* SECCION 9: BLOG */
+.sec-9{
+  background: url(../img/news-bg.jpg);
+  padding:50px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+  padding: 300px 0;
+  background-attachment: fixed;
+}
+
+#pic1-sec9{
+  background: url(../img/fashion-1284308_960_720-370x250.png);
+  height: 300px;
+  width:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#pic2-sec9{
+  background: url(../img/beauty-355157_1920-1-370x250.jpg);
+  height: 300px;
+  width:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#pic3-sec9{
+  background: url(../img/model-813227_1280-1-370x250.jpg);
+  height: 300px;
+  width:300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.white{
+  color:#fff;
+}
+
+
+/* SECCION 10: ICONS */
+/* SECCION 11: GENERAL*/
+/*FOOTER*/
+
+.social-media{
+	display:inline-block;
+
 }
